@@ -1,0 +1,35 @@
+#altschool {
+  width: 100%;
+  font-family: "Poppins";
+  border-collapse: collapse;
+}
+
+nav {
+  border: 3px solid black;
+  align-items: center;
+}
+nav a:hover {
+  color: black;
+}
+nav a {
+  margin: 0 10px;
+}
+td,
+th {
+  border: 1px solid grey;
+  padding: 50px;
+}
+th {
+  background-color: oldlace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: khaki;
+}
+
+tr:hover {
+  background-color: blanchedalmond;
+}

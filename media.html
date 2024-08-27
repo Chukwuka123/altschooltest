@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">GO TO HOME PAGE</a>
+      <a href="./form.html">GO TO FORM PAGE</a>
+      <a href="./table.html">GO TO TABLE PAGE</a>
+    </nav>
+    <picture>
+      <source media="(max-width:600px)" srcset="images/IMG_3624.JPG" />
+      <source media="(max-width:768px)" srcset="images/JPEG image 2.jpeg" />
+      <source media="(max-width:1200px)" srcset="images/JPEG image 3.jpeg" />
+      <img src="./images/JPEG image.jpeg" alt="my picture" width="100%" />
+    </picture>
+
+    <audio controls>
+      <source src="audio/New Recording 17.m4a" />
+    </audio>
+
+    <video width="320" height="240" controls>
+      <source src="./video/IMG_4610.mp4" type="video/mp4" />
+    </video>
+    <style>
+      nav {
+        border: 3px solid black;
+      }
+        
+      nav a {
+      margin: 0 10px;
+    }
+
+      nav a:hover {
+      color: white;
+    }
+
+      body {
+        background-color: grey;
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      picture,
+      video,
+      audio {
+        max-width: 400px;
+      }
+    </style>
+  </body>
+</html>
